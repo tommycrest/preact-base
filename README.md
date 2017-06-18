@@ -1,16 +1,13 @@
-# Preact Boilerplate / Starter Kit
+# Preact-base Starter Kit
 
 
-> Ready-to-rock [Preact] starter project, powered by [webpack].
->
-> If you're starting a new project using [Preact], you've come to the right place.
-Below is a step-by-step guide that takes you straight from downloading this boilerplate to production.
+> Preact-Base starter kit application with Preact js
 >
 
 ---
 
 
-# Quick-Start Guide
+# How-To Use this repo
 
 - [Installation](#installation)
 - [Development Workflow](#development-workflow)
@@ -22,79 +19,53 @@ Below is a step-by-step guide that takes you straight from downloading this boil
 
 ## Installation
 
-**1. Clone this repo:**
+**1. Cloning the repo:**
 
-```sh
 git clone --depth 1 https://github.com/developit/preact-base.git my-app
 cd my-app
-```
 
-
-**2. Make it your own:**
-
-```sh
 rm -rf .git && git init && npm init
-```
 
 > This re-initializes the repo and sets up your NPM project.
 
-
 **3. Install the dependencies:**
 
-```sh
 npm install
-```
 
-> You're done installing! Now let's get started developing.
-
-
+> Done!.
 
 ## Development Workflow
 
+**4. Live-reload dev server:**
 
-**4. Start a live-reload development server:**
-
-```sh
 npm run dev
-```
 
-> This is a full web server nicely suited to your project. Any time you make changes within the `src` directory, it will rebuild and even refresh your browser.
+> This is a full web server for your project. Listening within the `src` directory, it will rebuild and even refresh your browser.
 
 **5. Testing with `mocha`, `karma`, `chai`, `sinon` via `phantomjs`:**
 
-```sh
 npm test
-```
-
-> This also instruments the code in `src/` using [isparta](https://github.com/douglasduteil/isparta), giving you pretty code coverage statistics at the end of your tests! If you want to see detailed coverage information, a full HTML report is placed into `coverage/`.
 
 **6. Generate a production build in `./build`:**
 
-```sh
 npm run build
-```
 
-> You can now deploy the contents of the `build` directory to production!
+> Deploy the contents of the `build` directory to production!
+> with Surge or Netlify
 >
 > **[Surge.sh](https://surge.sh) Example:** `surge ./build -d my-app.surge.sh`
 >
 > **[Netlify](https://www.netlify.com/docs/cli/) Example:** `netlify deploy`
 >
-> [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/developit/preact-boilerplate)
+> Begin to reading something for Netlify
 
+**5. Local production server with [serve](https://github.com/zeit/serve):**
 
-**5. Start local production server with [serve](https://github.com/zeit/serve):**
-
-```sh
 npm start
-```
 
-> This is to simulate a production (CDN) server with gzip. It just serves up the contents of `./build`.
-
-
+> Simulate the production environment (CDN) server with gzip. It just serves up the contents of `./build`.
 
 ---
-
 
 ## Structure
 
@@ -109,8 +80,6 @@ class Link extends Component {
 // usage:
 <Link to="/">Home</Link>
 ```
-
-
 ---
 
 
