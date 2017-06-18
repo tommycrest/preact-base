@@ -18,7 +18,7 @@
     "webpack"
   ],
   "license": "MIT",
-  "author": "Jason Miller <jason@developit.ca>",
+  "author": "Crestanello Tommy <tommy.crestanello@digitaslbi.com>",
   "jest": {
     "setupFiles": [
       "./test/setup.js"
