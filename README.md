@@ -1,11 +1,9 @@
 # Preact Boilerplate / Starter Kit
 
-[![Build Status](https://travis-ci.org/developit/preact-boilerplate.svg?branch=master)](https://travis-ci.org/developit/preact-boilerplate)
-[![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/developit/preact)
 
-> :guitar: Ready-to-rock [Preact] starter project, powered by [webpack].
+> Ready-to-rock [Preact] starter project, powered by [webpack].
 >
-> :rocket: If you're starting a new project using [Preact], you've come to the right place.
+> If you're starting a new project using [Preact], you've come to the right place.
 Below is a step-by-step guide that takes you straight from downloading this boilerplate to production.
 >
 
@@ -38,7 +36,7 @@ cd my-app
 rm -rf .git && git init && npm init
 ```
 
-> :information_source: This re-initializes the repo and sets up your NPM project.
+> This re-initializes the repo and sets up your NPM project.
 
 
 **3. Install the dependencies:**
@@ -68,7 +66,7 @@ npm run dev
 npm test
 ```
 
-> 🌟 This also instruments the code in `src/` using [isparta](https://github.com/douglasduteil/isparta), giving you pretty code coverage statistics at the end of your tests! If you want to see detailed coverage information, a full HTML report is placed into `coverage/`.
+> This also instruments the code in `src/` using [isparta](https://github.com/douglasduteil/isparta), giving you pretty code coverage statistics at the end of your tests! If you want to see detailed coverage information, a full HTML report is placed into `coverage/`.
 
 **6. Generate a production build in `./build`:**
 
@@ -146,7 +144,7 @@ Note that the suffix for local classNames is generated based on an md5 hash of t
 
 ## Handling URLS
 
-:information_desk_person: This project contains a basic two-page app with [URL routing](http://git.io/preact-router).
+This project contains a basic two-page app with [URL routing](http://git.io/preact-router).
 
 Pages are just regular components that get mounted when you navigate to a certain URL. Any URL parameters get passed to the component as `props`.
 
@@ -166,7 +164,7 @@ Defining what component(s) to load for a given URL is easy and declarative. You 
 
 ## React Compatibility
 
-This project includes [preact-compat] alias in as `react` and `react-dom` right out-of-the-box.  This means you can install and use third-party React components, and they will use Preact automatically!  It also means that if you _don't_ install third-party React components, `preact-compat` doesn't get included in your JavaScript bundle - it's free if you don't use it 👍
+This project includes [preact-compat] alias in as `react` and `react-dom` right out-of-the-box.  This means you can install and use third-party React components, and they will use Preact automatically!  It also means that if you _don't_ install third-party React components, `preact-compat` doesn't get included in your JavaScript bundle - it's free if you don't use it
 
 ---
 
