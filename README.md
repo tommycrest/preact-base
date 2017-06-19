@@ -21,7 +21,7 @@
 
 **1. Cloning the repo:**
 
-git clone --depth 1 https://github.com/developit/preact-base.git my-app
+git clone --depth 1 https://github.com/developit/preact-base.git <you-app-name>
 cd my-app
 
 rm -rf .git && git init && npm init
@@ -32,7 +32,7 @@ rm -rf .git && git init && npm init
 
 npm install
 
-> Done!.
+> Reading the package.json and installa all the dependencies and begin your happy journey
 
 ## Development Workflow
 
